@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input id="botao" type="button" value="Aumentar tamanho" />
+        <p id="texto">texto a ser aumentado</p>
+        <script type="text/javascript">
+        var botao = document.getElementById("botao");
+        botao.addEventListener("click", AumentarTexto,false);
+
+        function AumentarTexto() {
+            texto = document.getElementById("texto");
+            texto.style.fontSize = "100px";
+        }
+        </script>
+    </body>
+</html>
