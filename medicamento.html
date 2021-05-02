@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -17,59 +17,62 @@
     <script src="js/funcoes.js"></script>
 </head>
 
-<body >
-           
+<body>
+
     <div class="container text-center p-3 my-3 border bg-dark text-white">
         <h1>Enfermeiro Virtual</h1>
         <p>Cuidando de Você</p>
-        <img src="imagens/enfermeiro-removebg-preview.png" class="img-thumbnail" alt="Enfermeiro" width="104" height="036">
-      </div>
-      <div class="container p-5 my-3 border bg-dark text-white">
-    <form>
-        <table>
-            <caption>Cadastrar Medicamentos</caption>
-            <!--Nome do produto-->
-            <tr>
-                <td class="alinharRotulos">Nome do Medicamento:</td>
-                <td><input id="txtNomeProduto" type="text"></td>
-            </tr>
-            <!--Código do produto-->
-            <tr>
-                <td class="alinharRotulos">Código do produto:</td>
-                <td><input id="txtCodProduto" type="text"></td>
-            </tr>
-            <!--Quantidade do produto-->
-            <tr>
-                <td class="alinharRotulos">Quantidade do produto:</td>
-                <td>
-                    <select id="qtidadeProduto">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </select>
-                </td>
-            </tr>
-            <!--Botoes-->
-            <tr>
-                <td colspan="2" align="center">
-                    <input type="button" value="Cadastrar" class="alinhaBtns" onclick="validarProduto('txtNomeProduto','txtCodProduto','qtidadeProduto')">
-                    <input type="button" value="Ver estoque" class="alinhaBtns" onclick="window.open('verEstoque.html','_self')">
-                    <input type="reset" value="Limpar" class="alinhaBtns">
-                </td>
-            </tr>
-        </table>
-    </form>
-</div>
-<div class="col text-center">
-    <a class="btn btn-primary active" href="index.html" role="button">Voltar ao Início</a>
-</div>
+        <img src="imagens/enfermeiro-removebg-preview.png" class="img-thumbnail" alt="Enfermeiro" width="104"
+            height="036">
+    </div>
+    <div class="container p-5 my-3 border bg-dark text-white">
+        <form>
+            <table>
+                <caption>Cadastrar Medicamentos</caption>
+                <!--Nome do produto-->
+                <tr>
+                    <td class="alinharRotulos">Nome do Medicamento:</td>
+                    <td><input id="txtNomeProduto" type="text"></td>
+                </tr>
+                <!--Código do produto-->
+                <tr>
+                    <td class="alinharRotulos">Código do produto:</td>
+                    <td><input id="txtCodProduto" type="text"></td>
+                </tr>
+                <!--Quantidade do produto-->
+                <tr>
+                    <td class="alinharRotulos">Quantidade do produto:</td>
+                    <td>
+                        <select id="qtidadeProduto">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </td>
+                </tr>
+                <!--Botoes-->
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" value="Cadastrar" class="alinhaBtns"
+                            onclick="validarProduto('txtNomeProduto','txtCodProduto','qtidadeProduto')">
+                        <input type="button" value="Ver estoque" class="alinhaBtns"
+                            onclick="window.open('verEstoque.html','_self')">
+                        <input type="reset" value="Limpar" class="alinhaBtns">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="col text-center">
+        <a class="btn btn-primary active" href="index.html" role="button">Voltar ao Início</a>
+    </div>
 </body>
 
 </html>
