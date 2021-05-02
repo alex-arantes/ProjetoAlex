@@ -49,7 +49,7 @@ function cadastrarProduto(produto, codig, qtidade) {
 
 //-----------------------------------------------------------------------------------------------------------
 // Função: atualizarTotalEstoque(idCampo)
-// Incrementa a quantidade de itens cadastrado no estoque (carrinho localizado no canto superior da tela)
+// Incrementa a quantidade de itens cadastrado no estoque 
 // Parâmetros:
 // - idCampo: identificador do campo que contem a quantidade de itens no estoque
 // Retorno: nenhum
@@ -59,7 +59,7 @@ function atualizarTotalEstoque(idCampo) {
 }
 //-----------------------------------------------------------------------------------------------------------
 // Função: carregarTotalEstoque(idCampo)
-// Incrementa a quantidade de itens cadastrado no estoque (carrinho localizado no canto superior da tela)
+// Incrementa a quantidade de itens cadastrado no estoque 
 // Parâmetros:
 // - idCampo: identificador do campo que contem a quantidade de itens no estoque
 // Retorno: nenhum

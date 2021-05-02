@@ -2,26 +2,35 @@
 <html>
 
 <head>
+    <title>Enfermeiro Virtual - Medicamentos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Estoque - Cadastro de novos Medicamentos</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/funcoes.js"></script>
 </head>
 
-<body onload="carregarTotalEstoque('totalEstoque')">
-    <!--Carrinho de compras-->
-    <div class="carrinho">
-        <img src="img/carrinhoCompras.png">
-        <p>Itens no estoque: <span id="totalEstoque">0</span></p>
-    </div>
-    
-    <!--Formulário: Nome, código e quantidade de produtos-->
+<body >
+           
+    <div class="container text-center p-3 my-3 border bg-dark text-white">
+        <h1>Enfermeiro Virtual</h1>
+        <p>Cuidando de Você</p>
+        <img src="imagens/enfermeiro-removebg-preview.png" class="img-thumbnail" alt="Enfermeiro" width="104" height="036">
+      </div>
+      <div class="container p-5 my-3 border bg-dark text-white">
     <form>
         <table>
-            <caption>Cadastro de novos produtos</caption>
+            <caption>Cadastrar Medicamentos</caption>
             <!--Nome do produto-->
             <tr>
-                <td class="alinharRotulos">Nome do produto:</td>
+                <td class="alinharRotulos">Nome do Medicamento:</td>
                 <td><input id="txtNomeProduto" type="text"></td>
             </tr>
             <!--Código do produto-->
@@ -57,6 +66,10 @@
             </tr>
         </table>
     </form>
+</div>
+<div class="col text-center">
+    <a class="btn btn-primary active" href="index.html" role="button">Voltar ao Início</a>
+</div>
 </body>
 
 </html>
